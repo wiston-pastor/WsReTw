@@ -1,0 +1,28 @@
+
+function App() {
+  return (
+    <>
+      <header className="bg-blue-400 py-2 flex justify-between px-10 items-center ">
+        <div className="text-2xl font-black">RKwiston</div>
+        <div>Felix navidad y prospero año nuevo</div>
+      </header>
+      <nav className="bg-blue-100">
+        <ul className="flex justify-around mx-20 py-3 bg-blue-200">
+          <li>inicio</li>
+          <li>contacto</li>
+          <li>mas de</li>
+          <li>videos</li>
+          <li>fanarts</li>
+        </ul>
+      </nav>
+      <main className="bg-blue-500 h-screen flex justify-center items-center flex-col ">
+        <h2 className="text-red-800 font-extrabold text-6xl ">Rkwiston corp</h2>
+        
+        <img className="rounded-xl " src="./src/assets/img/prueba.png" alt="" />
+
+      </main>
+      <footer className="flex justify-center" >Esta pagina esta hecha con mucho amor ♥️</footer>
+    </>
+  )
+}
+export default App
