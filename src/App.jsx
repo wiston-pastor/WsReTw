@@ -1,4 +1,6 @@
 
+import prueba from "./assets/img/prueba.png"
+
 function App() {
   return (
     <>
@@ -16,9 +18,9 @@ function App() {
         </ul>
       </nav>
       <main className="bg-blue-500 h-screen flex justify-center items-center flex-col ">
-        <h2 className="text-red-800 font-extrabold text-6xl ">Rkwiston corp</h2>
+        <h2 className="text-red-800 font-extrabold text-2xl text-center sm:text-6xl my-5">Britani cada que quiere que lea yaoi: </h2>
         
-        <img className="rounded-xl " src="./src/assets/img/prueba.png" alt="" />
+        <img className="rounded-xl " src={prueba} alt="imgane de prueba" />
 
       </main>
       <footer className="flex justify-center" >Esta pagina esta hecha con mucho amor ♥️</footer>
