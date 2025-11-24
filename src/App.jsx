@@ -4,25 +4,28 @@ import prueba from "./assets/img/prueba.png"
 function App() {
   return (
     <>
-      <header className="bg-blue-400 py-2 flex justify-between px-10 items-center ">
-        <div className="text-2xl font-black">RKwiston</div>
-        <div>Feliz navidad y prospero año nuevo</div>
+      <header className="bg-pink-400 px-2">
+        <div className="text-3xl font-black">Britani</div>
+        <div className="italic">"Y si te termino de criar"</div>
       </header>
-      <nav className="bg-blue-100">
-        <ul className="flex justify-around mx-20 py-3 bg-blue-200">
-          <li>inicio</li>
-          <li>contacto</li>
-          <li>mas de</li>
-          <li>videos</li>
-          <li>fanarts</li>
+      <nav className="bg-pink-300">
+        <ul className="flex justify-around my-0.25 gap-1">
+          <li className="font-light">Inicio</li>
+          <li className="font-light">Fanarts</li>
+          <li className="font-light">Redes</li>
         </ul>
       </nav>
-      <main className="bg-[url('./assets/img/bg.svg')] h-screen flex justify-center items-center flex-col sm:bg-cover sm:bg-center sm:bg-no-repeat sm:bg-fixed ">
+      <main className="bg-[url('./assets/img/bg-k.svg')] bg-cover bg-center bg-no-repeat flex justify-center items-center flex-col sm:bg-cover sm:bg-center sm:h-screen ">
         <div className="m-3  flex flex-col items-center ">
-          <h2 className="bg-white  text-red-800 font-extrabold text-2xl text-center sm:text-6xl my-5 ">Britani cada que quiere que lea yaoi: </h2>
-        
-        <img className="rounded-xl " src={prueba} alt="imgane de prueba" />
-        <button className="bg-blue-600 p-1 my-9 text-white font-semibold rounded-md w-full sm:w-1/2 hover:bg-blue-500">Tontita</button>
+          <div className="bg-white/20 backdrop-blur-sm my-5 p-3 rounded-xl drop-shadow-xl">
+
+            <h2 className="text-red-900 font-extrabold">Britani cada que quiere que lea yaoi: </h2>
+
+          </div>
+
+
+          <img className="rounded-xl w-4/5 shadow-2xl " src={prueba} alt="imgane de prueba" />
+          <button className="bg-blue-600 shadow-xl p-1 my-9 w-4/5 text-white font-semibold rounded-md sm:w-1/2 hover:bg-blue-500">Tontita</button>
         </div>
 
       </main>
