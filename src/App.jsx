@@ -1,12 +1,16 @@
 
 import prueba from "./assets/img/prueba.png"
+import perfil from "./assets/img/perfil.png"
 
 function App() {
   return (
     <>
-      <header className="bg-pink-400 px-2">
-        <div className="text-3xl font-black">Britani</div>
-        <div className="italic">"Y si te termino de criar"</div>
+      <header className="bg-pink-400 px-2 flex justify-between items-center p-1">
+        <div className="">
+          <div className="text-3xl font-black">Britani</div>
+          <div className="italic">"Y si te termino de criar"</div>          
+        </div>        
+        <img className="rounded-full size-12 shadow-lg border border-white/20 " src={perfil} alt="foto de perfil" />
       </header>
       <nav className="bg-pink-300">
         <ul className="flex justify-around my-0.25 gap-1">
@@ -25,7 +29,7 @@ function App() {
 
 
           <img className="rounded-xl w-4/5 shadow-2xl " src={prueba} alt="imgane de prueba" />
-          <button className="bg-blue-600 shadow-xl p-1 my-9 w-4/5 text-white font-semibold rounded-md sm:w-1/2 hover:bg-blue-500">Tontita</button>
+          <button className="bg-pink-600 shadow-xl p-1 my-9 w-4/5 text-white font-semibold rounded-md sm:w-1/2 hover:bg-blue-500">Tontita</button>
         </div>
 
       </main>
