@@ -29,7 +29,7 @@ function Layout() {
                 </ul>
             </nav>
 
-            <main className="bg-[url('./assets/img/bg-k.svg')] bg-cover bg-center bg-no-repeat flex justify-center items-center flex-col sm:bg-cover sm:bg-center sm:h-screen ">
+            <main className="bg-[url('./assets/img/bg-k.svg')] bg-cover bg-center bg-no-repeat h-screen flex justify-center items-center flex-col sm:bg-cover sm:bg-center sm:h-screen ">
                 <Outlet />
             </main>
 
