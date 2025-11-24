@@ -1,7 +1,9 @@
+import Masonry from "../features/Masonry";
+
 function FanArt(){
     return(
         <div>
-            <h1>FanArt</h1>
+            <Masonry/>
         </div>
     )
 }
